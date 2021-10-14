@@ -1,0 +1,2216 @@
+{
+    "Alabama": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Alaska": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Arizona": {
+        "color": "#ffff00",
+        "package": "arizona",
+        "release": "2016-6-6",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Camp Verde",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.854444444,
+                            34.563611111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Clifton",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -112.006,
+                            42.1875
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ehrenberg",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.515,
+                            33.6147
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Flagstaff",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.631111111,
+                            35.199166666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Grand Canyon Village",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -112.139444444,
+                            36.053333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Holbrook",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.162777777,
+                            34.907222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Kayenta",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.26,
+                            36.713888888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Kingman",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.025,
+                            35.208333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Nogales",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.939166666,
+                            31.353888888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Page",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.46,
+                            36.9142
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Phoenix",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -112.073888888,
+                            33.448333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "San Simon",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -109.228,
+                            32.2678
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Show Low",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.048173,
+                            34.243595
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sierra Vista",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.275555555,
+                            31.545555555
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Tucson",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.926388888,
+                            32.221666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Yuma",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.615277777,
+                            32.692222222
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Arkansas": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "California": {
+        "color": "#66ff33",
+        "package": "ats",
+        "release": "2016-2-2",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Bakersfield",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.018611111,
+                            35.405833333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Barstow",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.018888888,
+                            34.893333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Carlsbad",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.350996,
+                            33.158267
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "El Centro",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -115.5630514,
+                            32.792
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Eureka",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -124.163611111,
+                            40.801944444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Fresno",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.792222222,
+                            36.781666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Hilt",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.623333333,
+                            41.994722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Huron",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.103055555,
+                            36.202777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Los Angeles",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -118.24368,
+                            34.05223
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Oakdale",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.856944444,
+                            37.769166666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Oakland",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.25,
+                            37.8
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Oxnard",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.1825,
+                            34.191388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Redding",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.370277777,
+                            40.576666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sacramento",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -121.486111111,
+                            38.575277777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "San Diego",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.1625,
+                            32.715
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "San Francisco",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.416388888,
+                            37.7775
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "San Rafael",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.531111111,
+                            37.973611111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Santa Cruz",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.026252,
+                            36.97205
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Santa Maria",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.433333333,
+                            34.951388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Stockton",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -121.300833333,
+                            37.975555555
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Truckee",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.203611111,
+                            39.342222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ukiah",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.208611111,
+                            39.148888888
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Colorado": {
+        "color": "#ffff00",
+        "package": "colorado",
+        "release": "2020-11-12",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Alamosa",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.87361,
+                            37.46861
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Burlington",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -102.269,
+                            39.3042
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Colorado Springs",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.791944444,
+                            38.863333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Denver",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.984722222,
+                            39.739166666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Durango",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -107.88,
+                            37.2753
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Fort Collins",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.083333333,
+                            40.566666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Grand Junction",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -108.567,
+                            39.0667
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Lamar",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -102.619,
+                            38.0861
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Montrose",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -107.866,
+                            38.4769
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Pueblo",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.620277777,
+                            38.266944444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Rangely",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -108.798,
+                            40.0861
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Steamboat Springs",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.826666666,
+                            40.476388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sterling",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -103.212,
+                            40.6256
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Connecticut": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Delaware": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "District of Columbia": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Florida": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Georgia": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Hawaii": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Idaho": {
+        "color": "#ffff00",
+        "package": "idaho",
+        "release": "2020-7-16",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Boise",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.237777777,
+                            43.613611111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Coeur d'Alene",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.78,
+                            47.692777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Grangeville",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.121388888,
+                            45.926388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Idaho Falls",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -112.0325,
+                            43.491666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ketchum",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.366666666,
+                            43.666666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Lewiston",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.00103,
+                            46.400245
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Nampa",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.563611111,
+                            43.574722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Pocatello",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -112.447277777,
+                            42.875222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Salmon",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -113.903,
+                            45.1781
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sandpoint",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.5532476,
+                            48.2765903
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Twin Falls",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.475,
+                            42.578055555
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Illinois": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Indiana": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Iowa": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Kansas": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Kentucky": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Louisiana": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Maine": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Maryland": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Massachusetts": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Michigan": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Minnesota": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Mississippi": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Missouri": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Montana": {
+        "color": "#9900cc",
+        "package": null,
+        "release": null
+    },
+    "Nebraska": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Nevada": {
+        "color": "#66ff33",
+        "package": "ats",
+        "release": "2016-2-2",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Carson City",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.753888888,
+                            39.160833333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Elko",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -115.766666666,
+                            40.833333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ely",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.877222222,
+                            39.253333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Jackpot",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.665097222,
+                            41.981272222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Las Vegas",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -115.144722222,
+                            36.169166666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Pioche",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.448888888,
+                            37.941388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Primm",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -115.390277777,
+                            35.612777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Reno",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.821944444,
+                            39.527222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Tonopah",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.23,
+                            38.067222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Winnemucca",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.726666666,
+                            40.968333333
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "New Hampshire": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "New Jersey": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "New Mexico": {
+        "color": "#ffff00",
+        "package": "new-mexico",
+        "release": "2017-11-9",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Alamogordo",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.952222222,
+                            32.895833333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Albuquerque",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.616666666,
+                            35.116666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Artesia",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -118.080555555,
+                            33.867222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Carlsbad",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.350996,
+                            33.158267
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Clovis",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -103.204722222,
+                            34.4125
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Farmington",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -108.189722222,
+                            36.751666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Gallup",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -108.734166666,
+                            35.523611111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Hobbs",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -103.140555555,
+                            32.712222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Las Cruces",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.765277777,
+                            32.319722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Raton",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.44,
+                            36.896944444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Roswel",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.528055555,
+                            33.387222222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Santa Fe",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.966666666,
+                            35.666666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Socorro",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.899444444,
+                            34.061666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Tucumcari",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -103.725555555,
+                            35.169444444
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "New York": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "North Carolina": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "North Dakota": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Ohio": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Oklahoma": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Oregon": {
+        "color": "#ffff00",
+        "package": "oregon",
+        "release": "2018-10-4",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Astoria",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.834722222,
+                            46.183333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Bend",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -121.308055555,
+                            44.056388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Burns",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.0541032,
+                            43.5862607
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Coos Bay",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -124.237222222,
+                            43.376388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Eugene",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.085555555,
+                            44.051944444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Klamath Falls",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -121.7775,
+                            42.223333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Lakeview",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.345833333,
+                            42.188888888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Medford",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.86167,
+                            42.33194
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Newport",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -124.053333333,
+                            44.636666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ontario",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -116.968611111,
+                            44.026944444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Pendleton",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -118.791388888,
+                            45.669722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Portland",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.666666666,
+                            45.516666666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Salem",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.028888888,
+                            44.930833333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "The Dalles",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -121.182777777,
+                            45.601111111
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Pennsylvania": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Rhode Island": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "South Carolina": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "South Dakota": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Tennessee": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Texas": {
+        "color": "#0066ff",
+        "package": "texas",
+        "release": null
+    },
+    "Utah": {
+        "color": "#ffff00",
+        "package": "utah",
+        "release": "2019-11-7",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Cedar City",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -113.074444444,
+                            37.6825
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Logan",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.830833333,
+                            41.737777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Moab",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -109.549722222,
+                            38.5725
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Ogden",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.961111111,
+                            41.227777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Price",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.806666666,
+                            39.6
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Provo",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.660833333,
+                            40.244444444
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Salina",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.861388888,
+                            38.949166666
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Salt Lake City",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.883333333,
+                            40.75
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "St. George",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -113.578055555,
+                            37.095277777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Vernal",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -109.536,
+                            40.4547
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Vermont": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Virginia": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Washington": {
+        "color": "#ffff00",
+        "package": "washington",
+        "release": "2019-6-11",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Aberdeen",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.818611111,
+                            46.975833333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Bellingham",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.475,
+                            48.750277777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Colville",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.900833333,
+                            48.545
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Everett",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.200555555,
+                            47.963333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Grand Coulee",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.001666666,
+                            47.939722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Kennewick",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.15927,
+                            46.203475
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Longview",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.9375,
+                            46.14
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Olympia",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.893055555,
+                            47.0425
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Omak",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -119.537,
+                            48.4125
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Port Angeles",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.441,
+                            48.1131
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Seattle",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.33207,
+                            47.60621
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Spokane",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -117.5,
+                            47.658888888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Tacoma",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.459444444,
+                            47.241388888
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Vancouver",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.602777777,
+                            45.633611111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Wenatchee",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.325277777,
+                            47.423333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Yakima",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.507777777,
+                            46.601944444
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "West Virginia": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Wisconsin": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    },
+    "Wyoming": {
+        "color": "#ffff00",
+        "package": "wyoming",
+        "release": "2021-9-7",
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Casper",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.325,
+                            42.834722222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Cheyenne",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.801944444,
+                            41.145555555
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Evanston",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.964722222,
+                            41.263333333
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Gillette",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.505277777,
+                            44.282777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Jackson",
+                        "garage": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -110.769166666,
+                            43.475277777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Laramie",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -105.593611111,
+                            41.311111111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Rawlins",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -107.234166666,
+                            41.790277777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Riverton",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -108.395,
+                            43.027777777
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Rock Springs",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -109.221388888,
+                            41.585
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sheridan",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.958888888,
+                            44.796666666
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "Puerto Rico": {
+        "color": "#ff0066",
+        "package": null,
+        "release": null
+    }
+}
