@@ -49,6 +49,9 @@
 		tileSize: 512,
 		zoomOffset: -1
 	}).addTo(map);
+	map.createPane('states');
+	map.createPane('cities');
+	map.getPane('cities').style.zIndex = 600;
 
 
 	async function addGeoJson() {
@@ -64,7 +67,6 @@
 				return {fillColor: values.color};
 			},
 			onEachFeature: function (feature, layer) {
-				//if (feature.properties && feature.properties.popupContent) {
 				layer.bindPopup(feature.properties.name + " (" + values.package + " @ " + values.release + ")");
 				var geojsonMarkerOptions = {
 					radius: 8,
@@ -72,25 +74,29 @@
 					color: "#000",
 					weight: 1,
 					opacity: 1,
-					fillOpacity: 0.8
+					fillOpacity: 0.8,
+					pane: "cities"
 				};
 
 				var l = L.geoJSON(values.cities, {
 					pointToLayer: function (feature, latlng) {
-						return L.circleMarker(latlng, geojsonMarkerOptions);
+						var marker = L.circleMarker(latlng, geojsonMarkerOptions);
+						marker.bindTooltip(feature.properties.name + " (" + feature.properties.garage + ")", {permanent: false});
+						return marker;
 					},
 					onEachFeature: function (feature, layer) {
-						// TODO: figure out zIndex
-						//if (feature.properties && feature.properties.popupContent) {
+						if (feature.properties.garage) {
+							layer.setStyle({
+								fillColor: "#00ff78"
+							})
+						}
 						layer.bindPopup(feature.properties.name + " (" + feature.properties.garage + ")");
 					}
 				});
-				l.setZIndex(50);
 				l.addTo(map);
 				//}
 			}
 		});
-		layer.setZIndex(10);
 		layer.addTo(map);
 	}
 
