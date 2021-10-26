@@ -81,7 +81,11 @@
 				var l = L.geoJSON(values.cities, {
 					pointToLayer: function (feature, latlng) {
 						var marker = L.circleMarker(latlng, geojsonMarkerOptions);
-						marker.bindTooltip(feature.properties.name + " (" + feature.properties.garage + ")", {permanent: false});
+						var label = feature.properties.name;
+						if (feature.properties.garage){
+							label += " (garage)";
+						}
+						marker.bindTooltip(label, {permanent: false});
 						return marker;
 					},
 					onEachFeature: function (feature, layer) {
