@@ -1019,7 +1019,7 @@
     },
     "Montana": {
         "color": "#9900cc",
-        "package": null,
+        "package": "montana",
         "release": null
     },
     "Nebraska": {
