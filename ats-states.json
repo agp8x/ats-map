@@ -1750,7 +1750,64 @@
     "Texas": {
         "color": "#0066ff",
         "package": "texas",
-        "release": null
+        "release": null,
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "San Angelo",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -100.450278, 31.442778
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Waco",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -97.155833, 31.551389
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Galveston",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                           -94.825833 , 29.281111
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Amarillo",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -101.845278, 35.199167
+                        ]
+                    }
+                }
+            ]
+        }
     },
     "Utah": {
         "color": "#ffff00",
