@@ -511,6 +511,21 @@
                     "type": "Feature",
                     "properties": {
                         "name": "Santa Maria",
+                        "garage": false,
+                        "added": "v1.5"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -120.43333,
+                            34.95138
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Santa Maria",
                         "garage": false
                     },
                     "geometry": {
@@ -1020,7 +1035,90 @@
     "Montana": {
         "color": "#9900cc",
         "package": "montana",
-        "release": null
+        "release": null,
+        "cities": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Bozeman",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -111.047222, 45.677778
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Kalispell",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -114.316111, 48.197778
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Laurel",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                           -108.770833 , 45.673889
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Sidney",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -104.161389, 47.7125
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Glasgow",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.636111, 48.195
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Havre",
+                        "garage": false
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -109.683333, 48.55
+                        ]
+                    }
+                }
+             ]
+           }
     },
     "Nebraska": {
         "color": "#ff0066",
