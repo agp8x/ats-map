@@ -1033,12 +1033,26 @@
 	"release": null
   },
   "Montana": {
-	"color": "#9900cc",
+	"color": "#ffff00",
 	"package": "montana",
-	"release": null,
+	"release": "2022-08-04",
 	"cities": {
 	  "type": "FeatureCollection",
 	  "features": [
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Billings",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -108.537222222,
+			  45.786666666
+			]
+		  }
+		},
 		{
 		  "type": "Feature",
 		  "properties": {
@@ -1048,46 +1062,22 @@
 		  "geometry": {
 			"type": "Point",
 			"coordinates": [
-			  -111.047222, 45.677778
+			  -111.047222222,
+			  45.677777777
 			]
 		  }
 		},
 		{
 		  "type": "Feature",
 		  "properties": {
-			"name": "Kalispell",
+			"name": "Butte",
 			"garage": false
 		  },
 		  "geometry": {
 			"type": "Point",
 			"coordinates": [
-			  -114.316111, 48.197778
-			]
-		  }
-		},
-		{
-		  "type": "Feature",
-		  "properties": {
-			"name": "Laurel",
-			"garage": false
-		  },
-		  "geometry": {
-			"type": "Point",
-			"coordinates": [
-			  -108.770833 , 45.673889
-			]
-		  }
-		},
-		{
-		  "type": "Feature",
-		  "properties": {
-			"name": "Sidney",
-			"garage": false
-		  },
-		  "geometry": {
-			"type": "Point",
-			"coordinates": [
-			  -104.161389, 47.7125
+			  -112.529722222,
+			  46.006388888
 			]
 		  }
 		},
@@ -1100,7 +1090,36 @@
 		  "geometry": {
 			"type": "Point",
 			"coordinates": [
-			  -106.636111, 48.195
+			  -106.636111111,
+			  48.195
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Glendive",
+			"garage": false
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -104.708333333,
+			  47.108333333
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Great Falls",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -111.286388888,
+			  47.503611111
 			]
 		  }
 		},
@@ -1113,7 +1132,120 @@
 		  "geometry": {
 			"type": "Point",
 			"coordinates": [
-			  -109.683333, 48.55
+			  -109.6775,
+			  48.545277777
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Helena",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -112.035,
+			  46.592777777
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Kalispell",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -114.316666666,
+			  48.2
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Laurel",
+			"garage": false
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -108.770833333,
+			  45.673888888
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Lewiston",
+			"garage": false
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -109.43,
+			  47.064722222
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Miles City",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -105.84,
+			  46.40833
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Missoula",
+			"garage": true
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -114.011666666,
+			  46.8625
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Sidney",
+			"garage": false
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -104.161388888,
+			  47.7125
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"name": "Thompson Falls",
+			"garage": false
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -115.343611111,
+			  47.596666666
 			]
 		  }
 		}
