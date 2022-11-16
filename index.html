@@ -39,6 +39,13 @@
 
 
 <script>
+	const colors = {
+		ats: "#66ff33",
+		dlc: "#ffff00",
+		announced: "#9900cc",
+		open: "#ff0066"
+	};
+	
 	var map = L.map('map').setView([39.74739, -100], 5);
 
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -64,7 +71,17 @@
 		var layer = L.geoJson(data, {
 			style: function (feature) {
 				values = ats_data[feature.properties.name];
-				return {fillColor: values.color};
+				color = colors.open;
+				if (values.status == "released") {
+					color = colors.dlc;
+					if (values.package == "ats") {
+						color = colors.ats;
+					}
+				}
+				if (values.status == "announced"){
+					color = values.announced;
+				}
+				return {fillColor: color};
 			},
 			onEachFeature: function (feature, layer) {
 				layer.bindPopup(feature.properties.name + " (" + values.package + " @ " + values.release + ")");

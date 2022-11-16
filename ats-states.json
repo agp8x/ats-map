@@ -1,16 +1,16 @@
 {
   "Alabama": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Alaska": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Arizona": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "arizona",
 	"release": "2016-6-6",
 	"cities": {
@@ -244,12 +244,12 @@
 	}
   },
   "Arkansas": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "California": {
-	"color": "#66ff33",
+	"status": "released",
 	"package": "ats",
 	"release": "2016-2-2",
 	"cities": {
@@ -582,7 +582,7 @@
 	}
   },
   "Colorado": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "colorado",
 	"release": "2020-11-12",
 	"cities": {
@@ -774,37 +774,37 @@
 	}
   },
   "Connecticut": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Delaware": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "District of Columbia": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Florida": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Georgia": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Hawaii": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Idaho": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "idaho",
 	"release": "2020-7-16",
 	"cities": {
@@ -968,72 +968,72 @@
 	}
   },
   "Illinois": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Indiana": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Iowa": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Kansas": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Kentucky": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Louisiana": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Maine": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Maryland": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Massachusetts": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Michigan": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Minnesota": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Mississippi": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Missouri": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Montana": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "montana",
 	"release": "2022-08-04",
 	"cities": {
@@ -1253,12 +1253,12 @@
 	}
   },
   "Nebraska": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Nevada": {
-	"color": "#66ff33",
+	"status": "released",
 	"package": "ats",
 	"release": "2016-2-2",
 	"cities": {
@@ -1408,17 +1408,17 @@
 	}
   },
   "New Hampshire": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "New Jersey": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "New Mexico": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "new-mexico",
 	"release": "2017-11-9",
 	"cities": {
@@ -1624,32 +1624,32 @@
 	}
   },
   "New York": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "North Carolina": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "North Dakota": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Ohio": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Oklahoma": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Oregon": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "oregon",
 	"release": "2018-10-4",
 	"cities": {
@@ -1855,32 +1855,32 @@
 	}
   },
   "Pennsylvania": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Rhode Island": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "South Carolina": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "South Dakota": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Tennessee": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Texas": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "texas",
 	"release": "2022-11-15",
 	"cities": {
@@ -2296,7 +2296,7 @@
 	}
   },
   "Utah": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "utah",
 	"release": "2019-11-7",
 	"cities": {
@@ -2446,17 +2446,17 @@
 	}
   },
   "Vermont": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Virginia": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Washington": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "washington",
 	"release": "2019-6-11",
 	"cities": {
@@ -2690,17 +2690,17 @@
 	}
   },
   "West Virginia": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Wisconsin": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   },
   "Wyoming": {
-	"color": "#ffff00",
+	"status": "released",
 	"package": "wyoming",
 	"release": "2021-9-7",
 	"cities": {
@@ -2850,7 +2850,7 @@
 	}
   },
   "Puerto Rico": {
-	"color": "#ff0066",
+	"status": "open",
 	"package": null,
 	"release": null
   }
