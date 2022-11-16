@@ -1,52 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>ATS map (15.11.2022)</title>
-
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico"/>
-
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 		  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 		  crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 			crossorigin=""></script>
-
-
 	<style>
 		html, body {
 			height: 100%;
 			margin: 0;
 		}
-
 		#map {
 			width: 1200px;
 			height: 800px;
 		}
-
-
 	</style>
-
-
 </head>
 <body>
-
 <div id='map'></div>
-
-
 <script>
 	const colors = {
 		ats: "#66ff33",
 		dlc: "#ffff00",
 		announced: "#9900cc",
-		open: "#ff0066"
+		open: "#ff0066",
+		garage: "#00ff78",
+		city: "#ff7800",
+		border: "#000"
 	};
-	
-	var map = L.map('map').setView([39.74739, -100], 5);
+
+	let map = L.map('map').setView([39.74739, -100], 5);
 
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -62,44 +51,44 @@
 
 
 	async function addGeoJson() {
-
 		const response1 = await fetch("./ats-states.json");
 		const ats_data = await response1.json();
 
 		const response = await fetch("./us-states.json");
 		const data = await response.json();
-		var layer = L.geoJson(data, {
+		let layer = L.geoJson(data, {
 			style: function (feature) {
-				values = ats_data[feature.properties.name];
-				color = colors.open;
-				if (values.status == "released") {
+				let values = ats_data[feature.properties.name];
+				let color = colors.open;
+				if (values.status === "released") {
 					color = colors.dlc;
-					if (values.package == "ats") {
+					if (values.package === "ats") {
 						color = colors.ats;
 					}
 				}
-				if (values.status == "announced"){
+				if (values.status === "announced") {
 					color = values.announced;
 				}
 				return {fillColor: color};
 			},
 			onEachFeature: function (feature, layer) {
+				let values = ats_data[feature.properties.name];
 				layer.bindPopup(feature.properties.name + " (" + values.package + " @ " + values.release + ")");
-				var geojsonMarkerOptions = {
+				const geojsonMarkerOptions = {
 					radius: 8,
-					fillColor: "#ff7800",
-					color: "#000",
+					fillColor: colors.city,
+					color: colors.border,
 					weight: 1,
 					opacity: 1,
 					fillOpacity: 0.8,
 					pane: "cities"
 				};
 
-				var l = L.geoJSON(values.cities, {
+				let l = L.geoJSON(values.cities, {
 					pointToLayer: function (feature, latlng) {
-						var marker = L.circleMarker(latlng, geojsonMarkerOptions);
-						var label = feature.properties.name;
-						if (feature.properties.garage){
+						let marker = L.circleMarker(latlng, geojsonMarkerOptions);
+						let label = feature.properties.name;
+						if (feature.properties.garage) {
 							label += " (garage)";
 						}
 						marker.bindTooltip(label, {permanent: false});
@@ -108,24 +97,19 @@
 					onEachFeature: function (feature, layer) {
 						if (feature.properties.garage) {
 							layer.setStyle({
-								fillColor: "#00ff78"
+								fillColor: colors.garage
 							})
 						}
 						layer.bindPopup(feature.properties.name + " (" + feature.properties.garage + ")");
 					}
 				});
 				l.addTo(map);
-				//}
 			}
 		});
 		layer.addTo(map);
 	}
 
 	addGeoJson();
-
-
 </script>
-
-
 </body>
 </html>
