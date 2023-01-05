@@ -29,6 +29,7 @@
 		ats: "#66ff33",
 		dlc: "#ffff00",
 		announced: "#9900cc",
+		teased: "#880055",
 		open: "#ff0066",
 		garage: "#00ff78",
 		city: "#ff7800",
@@ -67,7 +68,10 @@
 					}
 				}
 				if (values.status === "announced") {
-					color = values.announced;
+					color = colors.announced;
+				}
+				if (values.status === "teased") {
+					color = colors.teased;
 				}
 				return {fillColor: color};
 			},
