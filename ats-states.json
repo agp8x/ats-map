@@ -244,10 +244,68 @@
 	}
   },
   "Arkansas": {
-	"status": "open",
+	"status": "announced",
 	"package": null,
-	"release": null
-  },
+	"release": null,
+	"cities": {
+	  "type": "FeatureCollection",
+	  "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "Texarkana,_Arkansas",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -94.020555555,
+                33.433055555
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Texarkana,_Arkansas",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -94.020555555,
+                33.433055555
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Jonesboro,_Arkansas",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -90.7,
+                35.833333333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Pine_Bluff,_Arkansas",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -92.003194444,
+                34.228444444
+            ]
+        }
+    }]
+  }},
   "California": {
 	"status": "released",
 	"package": "ats",
@@ -983,9 +1041,208 @@
 	"release": null
   },
   "Kansas": {
-	"status": "teased",
-	"package": null,
-	"release": null
+	"status": "released",
+	"package": "kansas",
+	"release": "2023-11-30",
+	"cities": {
+	  "type": "FeatureCollection",
+	  "features": [{
+		  "type": "Feature",
+		  "properties": {
+			  "name": "Colby,_Kansas",
+			  "garage": false
+		  },
+		  "geometry": {
+			  "type": "Point",
+			  "coordinates": [
+				  -101.048,
+				  39.3922
+			  ]
+		  }
+	  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Phillipsburg,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -99.3222,
+					  39.7553
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Marysville,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -96.6425,
+					  39.84444
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Kansas_City,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -94.676388888,
+					  39.106666666
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Topeka,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -95.67804,
+					  39.04833
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Junction_City,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -96.8403,
+					  39.0275
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Hays,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -99.3222,
+					  38.8794
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Salina,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.6072,
+					  38.8242
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Garden_City,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -100.864,
+					  37.9753
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Dodge_City,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -100.018333333,
+					  37.759722222
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Hutchinson,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.9236,
+					  38.0656
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Wichita,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.336111111,
+					  37.688888888
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Emporia,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -96.1869,
+					  38.4081
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Pittsburg,_Kansas",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -94.6997,
+					  37.4103
+				  ]
+			  }
+		  }]
+	}
   },
   "Kentucky": {
 	"status": "open",
@@ -1028,9 +1285,13 @@
 	"release": null
   },
   "Missouri": {
-	"status": "open",
-	"package": null,
-	"release": null
+	"status": "announced",
+	"package": "missouri",
+	"release": null,
+	  "cities": {
+		  "type": "FeatureCollection",
+		  "features": []
+	  }
   },
   "Montana": {
 	"status": "released",
@@ -1253,10 +1514,250 @@
 	}
   },
   "Nebraska": {
-	"status": "open",
+	"status": "announced",
 	"package": null,
-	"release": null
-  },
+	"release": null,
+	"cities": {
+	  "type": "FeatureCollection",
+	  "features": [{
+        "type": "Feature",
+        "properties": {
+            "name": "Alma,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -99.3625,
+                40.100833333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ansley,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -99.3825,
+                41.288611111
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Auburn,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -95.842222222,
+                40.388333333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Bartlett,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -98.5525,
+                41.885
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Bassett,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -99.537222222,
+                42.583888888
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Beatrice,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -96.743055555,
+                40.268333333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Brownville,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -95.659444444,
+                40.396944444
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Hyannis,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -101.765277777,
+                42.000833333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "O%27Neill,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -98.646944444,
+                42.460833333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ogallala,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -101.719444444,
+                41.128888888
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Red_Cloud,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -98.522777777,
+                40.088333333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Thedford,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -100.575,
+                41.978888888
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Lusk,_Wyoming",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -104.452777777,
+                42.760555555
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Grand_Island,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -98.338694444,
+                40.924277777
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Norfolk,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -97.417,
+                42.028333333
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Columbus,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -97.358138888,
+                41.429305555
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "North_Platte,_Nebraska",
+            "garage": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -100.770501,
+                41.135914
+            ]
+        }
+    }]
+  }},
   "Nevada": {
 	"status": "released",
 	"package": "ats",
@@ -1644,9 +2145,152 @@
 	"release": null
   },
   "Oklahoma": {
-	"status": "announced",
-	"package": null,
-	"release": null
+	"status": "released",
+	"package": "oklahoma",
+	"release": "2023-08-01",
+	"cities": {
+	  "type": "FeatureCollection",
+	  "features": [{
+		  "type": "Feature",
+		  "properties": {
+			  "name": "Guymon,_Oklahoma",
+			  "garage": false
+		  },
+		  "geometry": {
+			  "type": "Point",
+			  "coordinates": [
+				  -101.479444444,
+				  36.685277777
+			  ]
+		  }
+	  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Woodward,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -99.397777777,
+					  36.433055555
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Enid,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.879138888,
+					  36.39675
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Tulsa,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -95.937222222,
+					  36.131388888
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Oklahoma_City",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.5352,
+					  35.4823
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Clinton,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -98.974166666,
+					  35.509444444
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Lawton,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -98.390333333,
+					  34.608694444
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Ardmore,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -97.129444444,
+					  34.181111111
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "McAlester,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -95.766388888,
+					  34.933055555
+				  ]
+			  }
+		  },
+		  {
+			  "type": "Feature",
+			  "properties": {
+				  "name": "Idabel,_Oklahoma",
+				  "garage": false
+			  },
+			  "geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					  -94.829166666,
+					  33.896388888
+				  ]
+			  }
+		  }]
+	}
   },
   "Oregon": {
 	"status": "released",
