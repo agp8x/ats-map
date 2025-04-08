@@ -244,9 +244,9 @@
 	}
   },
   "Arkansas": {
-	"status": "announced",
-	"package": null,
-	"release": null,
+	"status": "released",
+	"package": "arkansas",
+	"release": "16.09.2024",
 	"cities": {
 	  "type": "FeatureCollection",
 	  "features": [{
@@ -1036,9 +1036,13 @@
 	"release": null
   },
   "Iowa": {
-	"status": "open",
-	"package": null,
-	"release": null
+	"status": "announced",
+	"package": "iowa",
+	"release": null,
+	  "cities": {
+		  "type": "FeatureCollection",
+		  "features": []
+	  }
   },
   "Kansas": {
 	"status": "released",
@@ -1250,9 +1254,13 @@
 	"release": null
   },
   "Louisiana": {
-	"status": "open",
-	"package": null,
-	"release": null
+	"status": "announced",
+	"package": "louisiana",
+	"release": null,
+	  "cities": {
+		  "type": "FeatureCollection",
+		  "features": []
+	  }
   },
   "Maine": {
 	"status": "open",
@@ -1285,9 +1293,9 @@
 	"release": null
   },
   "Missouri": {
-	"status": "announced",
+	"status": "released",
 	"package": "missouri",
-	"release": null,
+	"release": "2025-04-03",
 	  "cities": {
 		  "type": "FeatureCollection",
 		  "features": []
@@ -1514,9 +1522,9 @@
 	}
   },
   "Nebraska": {
-	"status": "announced",
-	"package": null,
-	"release": null,
+	"status": "released",
+	"package": "nebraska",
+	"release": "16.05.2024",
 	"cities": {
 	  "type": "FeatureCollection",
 	  "features": [{
